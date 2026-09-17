@@ -1,0 +1,76 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+</head>
+<body>
+
+    <h1>Catálogo de Productos</h1>
+
+    <p>Consulta nuestros productos disponibles.</p>
+
+    <hr>
+
+    <h2>Productos</h2>
+
+    <table border="1">
+        <tr>
+            <th>Producto</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+            <th>Stock</th>
+        </tr>
+
+        <tr>
+            <td>Laptop Lenovo</td>
+            <td>Laptop para trabajo y estudio</td>
+            <td>$12,500</td>
+            <td>10</td>
+        </tr>
+
+        <tr>
+            <td>Mouse inalámbrico</td>
+            <td>Mouse con conexión inalámbrica</td>
+            <td>$350</td>
+            <td>25</td>
+        </tr>
+
+        <tr>
+            <td>Teclado mecánico</td>
+            <td>Teclado mecánico para computadora</td>
+            <td>$950</td>
+            <td>15</td>
+        </tr>
+
+        <tr>
+            <td>Audífonos</td>
+            <td>Audífonos inalámbricos con micrófono</td>
+            <td>$750</td>
+            <td>20</td>
+        </tr>
+
+        <tr>
+            <td>Monitor 24"</td>
+            <td>Monitor Full HD de 24 pulgadas</td>
+            <td>$3,200</td>
+            <td>8</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <h2>Buscar producto</h2>
+
+    <form>
+        <label for="buscar">Nombre del producto:</label>
+        <input type="text" id="buscar" name="buscar">
+
+        <button type="submit">Buscar</button>
+    </form>
+
+</body>
+</html>
+```
